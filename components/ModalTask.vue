@@ -278,10 +278,10 @@ export default {
         this.dataForm.title = ''
         this.dataForm.is_completed = null
         this.dataForm.due_date = ''
-        this.dataForm.comments = ''
-        this.dataForm.description = ''
-        this.dataForm.tags = ''
-        this.$refs.form.resetValidation()
+        this.dataForm.comments = '';
+        this.dataForm.description = '';
+        this.dataForm.tags = '';
+        this.$refs.form.resetValidation();
     },
     showAlert(text){
       this.visibleAlert = true;
